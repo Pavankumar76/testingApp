@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "marginTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginTop": 40,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "blue",
+          "fontSize": 20,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      To-Do-Lists
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "marginVertical": 15,
+        "paddingTop": 10,
+        "width": "80%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <RCTScrollView
+        data={Array []}
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={false}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        maxToRenderPerBatch={10}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+    <View />
+  </View>
+  <View
+    style={
+      Object {
+        "justifyContent": "flex-end",
+        "marginBottom": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "darkblue",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "textAlign": "left",
+          }
+        }
+      >
+        Add Task
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Write something"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderBottomColor": "black",
+            "borderBottomWidth": 1,
+            "width": 275,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "borderRadius": 40,
+            "marginLeft": 15,
+            "opacity": 1,
+            "paddingHorizontal": 20,
+            "paddingVertical": 5,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 32,
+            }
+          }
+        >
+          +
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
